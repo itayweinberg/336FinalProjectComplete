@@ -12,7 +12,7 @@
 
     <div class="search-form">
         <form method="get" action="repAnswerQuestions.jsp">
-            <label for="keyword">Search Questiona and Answers:</label>
+            <label for="keyword">Search Questions and Answers:</label>
             <input type="text" id="keyword" name="keyword" value="<%= request.getParameter("keyword") != null ? request.getParameter("keyword") : "" %>">
             <input type="submit" value="Search">
         </form>

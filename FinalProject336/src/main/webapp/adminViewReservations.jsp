@@ -49,7 +49,7 @@
 
                     out.println("<h3>Reservations for Flight Number " + flightNum + "</h3>");
                     out.println("<table border='1'>");
-                    out.println("<tr><th>Account Number</th><th>Flight Number</th><th>Customer_Name</th><th>Cost</th><th>Departure Date</th><th>Destination</th><th>Arrival Date</th><th>Class</th></tr>");
+                    out.println("<tr><th>Account Number</th><th>Flight Number</th><th>Customer Name</th><th>Cost</th><th>Departure Date</th><th>Destination</th><th>Arrival Date</th><th>Class</th></tr>");
 
                     while (rs.next()) {
                         out.println("<tr>");
@@ -105,7 +105,7 @@
 
                     out.println("<h3>Reservations for Customer " + customerName + "</h3>");
                     out.println("<table border='1'>");
-                    out.println("<tr><th>Account Number</th><th>Flight Number</th><th>Customer_Name</th><th>Cost</th><th>Departure Date</th><th>Destination</th><th>Arrival Date</th><th>Class</th></tr>");
+                    out.println("<tr><th>Account Number</th><th>Flight Number</th><th>Customer Name</th><th>Cost</th><th>Departure Date</th><th>Destination</th><th>Arrival Date</th><th>Class</th></tr>");
 
                     while (rs.next()) {
                         out.println("<tr>");

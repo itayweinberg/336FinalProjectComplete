@@ -40,8 +40,13 @@
                 <input type="text" id="password" name="password"><br><br>
                 <label for="ssn">Enter ssn:</label>
                 <input type="text" id="ssn" name="ssn"><br><br>
-                <label for="role">Enter role:</label>
-                <input type="text" id="role" name="role"><br><br>
+                <div id="role">
+					Choose role:
+		    		<select name="role">
+		        		<option value="Customer">Customer</option>
+		        		<option value="Representative">Representative</option>
+		    		</select><br>
+				</div>
                 <input type="submit" value="Submit">
             </form>
 
