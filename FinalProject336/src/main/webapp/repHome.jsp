@@ -32,7 +32,7 @@
 	<form action="repAnswerQuestions.jsp" method="get">
 		<button type="submit">Reply To User Questions</button>
 	</form>
-ß
+
 	<a href='logout.jsp'>Log Out</a>
 
 </body>
