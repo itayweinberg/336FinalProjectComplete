@@ -26,7 +26,7 @@
 	<form action="repViewWaitlist.jsp" method="get">
 		<button type="submit">View Waitlist on Particular Flight</button>
 	</form>
-	<form action="repViewAirports.jsp" method="get">
+	<form action="repViewFlights.jsp" method="get">
 		<button type="submit">View Flights From Given Airport</button>
 	</form>
 	<form action="repAnswerQuestions.jsp" method="get">
